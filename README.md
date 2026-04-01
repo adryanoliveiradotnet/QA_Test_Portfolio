@@ -8,30 +8,42 @@ Testes E2E do meu portfólio pessoal ([adriandotnet.com](https://adriandotnet.co
 
 ## Tecnologias
 
-- C# / .NET 10
+- C# | .NET10
+
 - Playwright
+
 - NUnit
 
 ## Testes implementados
 
 - Carregamento da página inicial
+
 - Exibição do nome no hero
+
 - Links do GitHub e LinkedIn visíveis e com abertura em nova aba
+
 - Seção de projetos visível
+
 - Projeto principal listado corretamente
 
-## Resultado atual
+## Resultado final
 
-✅ 12/12 testes aprovados
+✅ 12 de 12 testes aprovados
 
 ## Como rodar
-bash
+
+```bash
+
 # Instalar dependências
+
 dotnet restore
 
 # Instalar browsers do Playwright
+
 pwsh -File "Portfolio Teste/bin/Debug/net10.0/playwright.ps1" install
 
 # Rodar os testes
+
 dotnet test
+
 ```
